@@ -1,0 +1,7 @@
+comment:
+  layout: "header, diff"
+  require_changes: no  # if 'yes', only comment on PRs with coverage changes
+  behavior: default
+  flags: no
+  paths: no
+  branches: no
