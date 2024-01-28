@@ -5,3 +5,9 @@ comment:
   flags: no
   paths: no
   branches: no
+coverage:
+  status:
+    project: null  # overall project coverage
+    patch:
+      default:
+        target: 100%  # target percentage for patch/diff coverage
