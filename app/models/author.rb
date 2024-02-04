@@ -3,5 +3,7 @@ class Author < ApplicationRecord
   validates :name, presence: true
   validates :email, presence: true, format: { with: URI::MailTo::EMAIL_REGEXP }
 
-  # Additional model logic (if any) goes here
+  def presentation
+    "My name is #{name} and my email is #{email}"
+  end
 end
